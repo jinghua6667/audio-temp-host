@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/decode-audio.yml'
       - 'parts/**'
+  workflow_dispatch:
 jobs:
   decode:
     runs-on: ubuntu-latest
